@@ -1,0 +1,11 @@
+{
+    "language": "en,pt-br",
+    "ignoreRegExpList": [
+        // cSpell: disable
+        // cSpell: enable
+    ],
+    "words": [
+        "breno",
+        "tabnews"
+    ]
+}
