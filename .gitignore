@@ -1,3 +1,4 @@
 /.next
 /bun.lockb
 /node_modules
+/tsconfig.tsbuildinfo
