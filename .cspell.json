@@ -6,6 +6,11 @@
     ],
     "words": [
         "breno",
-        "tabnews"
+        "linebreak",
+        "paren",
+        "parens",
+        "tabnews",
+        "wrap-iife",
+        "yoda"
     ]
 }
