@@ -9,6 +9,7 @@
         "linebreak",
         "paren",
         "parens",
+        "postgres",
         "tabnews",
         "wrap-iife",
         "yoda"
