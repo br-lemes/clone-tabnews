@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import { query } from '../../../infra/database';
+import { query } from '@/infra/database';
 
 const status = async (request: NextApiRequest, response: NextApiResponse) => {
     const result = await query('SELECT 1 + 1 AS sum');

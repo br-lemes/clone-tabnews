@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "allowJs": true,
+        "baseUrl": ".",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "incremental": true,
@@ -10,6 +11,7 @@
         "module": "ESNext",
         "moduleResolution": "Node",
         "noEmit": true,
+        "paths": { "@/*": ["./*"] },
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "strict": true
