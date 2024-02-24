@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "allowJs": true,
-        "baseUrl": ".",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "incremental": true,
@@ -16,12 +15,6 @@
         "skipLibCheck": true,
         "strict": true
     },
-    "include": [
-        "next-env.d.ts",
-        "**/*.ts",
-        "**/*.tsx"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
 }
