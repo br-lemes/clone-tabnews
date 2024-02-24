@@ -15,6 +15,10 @@ const status = async (
         FROM
             pg_stat_activity WHERE datname = current_database();
     `);
+    if (queryResult === undefined) {
+        response.status(500);
+        return;
+    }
     response.status(200).json({
         dependencies: {
             database: { ...queryResult.rows[0] },
