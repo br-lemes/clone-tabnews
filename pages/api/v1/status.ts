@@ -5,7 +5,7 @@ import { StatusResponse } from '@/schemas/statusSchema';
 
 const status = async (
     request: NextApiRequest,
-    response: NextApiResponse<StatusResponse>
+    response: NextApiResponse<StatusResponse>,
 ) => {
     const queryResult = await query(`
         SELECT

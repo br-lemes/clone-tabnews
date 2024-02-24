@@ -23,6 +23,7 @@
         "@types/node": "20.10.4",
         "@types/pg": "^8.11.0",
         "@types/react": "18.2.42",
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
         "eslint": "8.55.0",
         "eslint-config-next": "14.0.4",
         "eslint-plugin-simple-import-sort": "^10.0.0",
